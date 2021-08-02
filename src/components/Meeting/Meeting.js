@@ -74,8 +74,8 @@ const Meeting = (props) => {
 
         const socket = io("https://pclub-meet-backend.herokuapp.com/"); 
         const myPeer = new Peer(undefined, { 
-            host: 'localhost',
-            port: '53418',
+            host: '/',
+            port: '443',
             path: '/peerjs'
         })
         
