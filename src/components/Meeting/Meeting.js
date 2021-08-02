@@ -72,7 +72,7 @@ const Meeting = (props) => {
 
     useEffect(() => {
 
-        const socket = io("http://localhost:5000"); //initializing socket 
+        const socket = io("https://pclub-meet-backend.herokuapp.com/"); //initializing socket 
         const myPeer = new Peer(undefined, { // initialzing my peer object
             host: 'localhost',
             port: '5000',
